@@ -1,0 +1,32 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Sofia&display=swap');
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Berkshire Swash", serif;
+  /* font-family: "Sofia", cursive; */
+  /* text-shadow: 3px 3px 3px #ababab; */
+  
+}
+/* @media (min-width: 300px) and (max-width: 400px) {
+  body {
+      background-color: green;
+  }
+}
+@media (min-width: 401px) and (max-width: 767px) {
+  body {
+      background-color: red;
+  }
+} */
+
+/* Media Query for Tablets Ipads portrait mode */
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+      background-color: blue;
+  }
+}

@@ -1,0 +1,24 @@
+.hover_card{
+    background-color: black;
+    display: inline-block;
+    margin:55px;
+    color: white;
+    padding: 15px;
+    top: 0px;
+    left: 400px;
+    border-radius: 20px;
+    position: absolute;
+    display: none;
+     
+    
+}
+.hover_card .visible{
+    display: block;
+     
+}
+.hover_card h4{
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 300;
+}

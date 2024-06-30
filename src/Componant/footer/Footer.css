@@ -1,0 +1,132 @@
+footer{
+    width: 100%;
+    background-color: black;
+    /* position: sticky; */
+    bottom: 0%;
+}
+.footer{
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer h2{
+    border-bottom: 5px solid greenyellow;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: rgba(144, 130, 235, 0.598);
+    border-radius: 15px;
+}
+.left:hover{
+    transform: scale(1.05);
+    transition: all 0.2s ease-in;
+    box-shadow: 2px 5px 2px 2px greenyellow;
+}
+.left h1{
+    font-size: 40px;
+    font-weight: 500;
+    padding: 10px;
+    color: white;
+}
+.left input{
+    margin: 30px 0;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: 2px solid rgb(98, 220, 245);
+    background-color: antiquewhite;
+}
+.left button{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 255, 255, 0.591);
+}
+.left button:hover{
+    background-color: rgba(123, 107, 244, 0.911);
+    color: rgb(249, 249, 249);
+    transition: 0.4s;
+    box-shadow: 3px 3px 3px 3px yellow;
+}
+.mid{
+    width: 400px;
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+}
+.mid_h4{
+    font-size: 22px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    line-height: 2;
+}
+ 
+.mid h5:hover{
+    color: greenyellow;
+    
+
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    line-height: 2.5;
+    font-size: 20px;
+    color: white;
+    border-left: 5px soled yellowgreen;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    .mid{
+        width: 300px;
+    }
+    .mid_h4{
+        font-size: 15px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        line-height: 2;
+        font-size: 15px;
+        color: white;
+    }
+}
+@media (min-width: 401px) and (max-width: 767px) {
+    .footer{
+        gap: 30px;
+
+    }
+    .mid{
+        width:400px;
+    }
+    .mid_h4{
+        font-size: 20px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        line-height: 1.5;
+    }
+    .right{
+        width: 250px;
+        line-height: 2;
+        font-size: 15px; 
+    }
+}
